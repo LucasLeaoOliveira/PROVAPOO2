@@ -1,7 +1,7 @@
 import express from 'express';
-import UsuarioRoutes from './routes/UsuarioRoutes';  // Ajuste o nome do arquivo de rotas conforme necessário
-import LeilaoRoutes from './routes/LeilaoRoutes';    // Ajuste o nome do arquivo de rotas conforme necessário
-import LanceRoutes from './routes/LanceRoutes';      // Ajuste o nome do arquivo de rotas conforme necessário
+import UsuarioRoutes from '../routes/UsuarioRoutes';  // Ajuste o nome do arquivo de rotas conforme necessário
+import LeilaoRoutes from '../routes/LeilaoRoutes';    // Ajuste o nome do arquivo de rotas conforme necessário
+import LanceRoutes from '../routes/LanceRoutes';      // Ajuste o nome do arquivo de rotas conforme necessário
 import path from 'path';
 
 const app = express();
